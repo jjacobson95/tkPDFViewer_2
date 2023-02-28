@@ -4,8 +4,8 @@ with open("README.md","r") as f:
     long_description = f.read()
 
 setuptools.setup(
-  name = 'tkPDFViewer',
-  packages = ['tkPDFViewer'],
+  name = 'tkPDFViewer_2',
+  packages = ['tkPDFViewer_2'],
   version = '0.1',
   license='MIT',
   long_description = long_description,
@@ -14,7 +14,7 @@ setuptools.setup(
   author = 'Jeremy Jacobson',
   author_email = 'jeremy.jacobson3402@gmail.com',
   url = 'https://github.com/jjacobson95/',
-  download_url = 'https://github.com/jjacobson95/tkPDFViewer/archive/0.1.zip',
+  download_url = 'https://github.com/jjacobson95/tkPDFViewer_2/archive/0.1.zip',
   keywords = ['PdfViewer', 'tkinter', 'pdf'],
   install_requires=[
           'PyMuPDF',
